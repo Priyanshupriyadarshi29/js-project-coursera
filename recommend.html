@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Destination - Travel Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="recommend.html">Find Destinations</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Find Your Ideal Destination</h2>
+        <form id="preferenceForm">
+            <label>Preferred Climate:
+                <select name="climate" required>
+                    <option value="">Select</option>
+                    <option value="tropical">Tropical</option>
+                    <option value="temperate">Temperate</option>
+                    <option value="cold">Cold</option>
+                </select>
+            </label>
+            <label>Activities:
+                <select name="activity" required>
+                    <option value="">Select</option>
+                    <option value="beach">Beach</option>
+                    <option value="adventure">Adventure</option>
+                    <option value="culture">Culture</option>
+                    <option value="nature">Nature</option>
+                </select>
+            </label>
+            <label>Budget:
+                <select name="budget" required>
+                    <option value="">Select</option>
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
+            </label>
+            <button type="submit" class="cta">Get Recommendations</button>
+        </form>
+        <section id="recommendations"></section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Travel Explorer. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 

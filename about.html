@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Travel Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="recommend.html">Find Destinations</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>About Travel Explorer</h2>
+        <p>Travel Explorer is your personalized travel recommendation website. We help you discover ideal destinations based on your preferences, providing detailed descriptions, images, and tips to make your trip memorable.</p>
+        <h3>Contact Us</h3>
+        <form id="contactForm">
+            <label>Name:<br><input type="text" name="name" required></label><br>
+            <label>Email:<br><input type="email" name="email" required></label><br>
+            <label>Message:<br><textarea name="message" rows="4" required></textarea></label><br>
+            <button type="submit" class="cta">Send</button>
+        </form>
+        <div id="contactResponse"></div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Travel Explorer. All rights reserved.</p>
+    </footer>
+    <script>
+    document.getElementById('contactForm').onsubmit = function(e) {
+        e.preventDefault();
+        document.getElementById('contactResponse').textContent = 'Thank you for reaching out! We will get back to you soon.';
+        this.reset();
+    };
+    </script>
+</body>
+</html> 
