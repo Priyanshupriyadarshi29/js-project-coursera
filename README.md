@@ -48,7 +48,6 @@ Open index.html in your preferred browser.
 
 👨‍💻 Author
 Priyadarshi Priyanshu
-📫 LinkedIn
 📧 priyadarshipriyanshu29@gmail.com
 
 
