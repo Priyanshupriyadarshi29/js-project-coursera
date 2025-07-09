@@ -22,18 +22,6 @@ This project was developed to demonstrate core JavaScript skills, including DOM 
 - Fully responsive and mobile-friendly
 - No frameworks – built with pure JavaScript
 
-## 📁 Project Structure
-
-```plaintext
-js-project-coursera/
-├── css/
-│   └── style.css         # Styling for the app
-├── images/               # Image assets
-├── js/
-│   └── script.js         # Main JavaScript logic
-├── index.html            # Main HTML file
-└── README.md             # Project documentation
-
 🚀 Technologies Used
 HTML5
 
@@ -62,3 +50,20 @@ Open index.html in your preferred browser.
 Priyadarshi Priyanshu
 📫 LinkedIn
 📧 priyadarshipriyanshu29@gmail.com
+
+
+## 📁 Project Structure
+
+```plaintext
+js-project-coursera/
+├── css/
+│   └── style.css         # Styling for the app
+├── images/               # Image assets
+├── js/
+│   └── script.js         # Main JavaScript logic
+├── index.html            # Main HTML file
+└── README.md             # Project documentation
+
+
+
+
